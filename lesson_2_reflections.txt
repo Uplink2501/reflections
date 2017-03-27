@@ -5,4 +5,6 @@ How is the staging area different from the working directory and the repository?
   The staging area simply collects files to be tracked by the repository. Working directory contains all files being worked on,
   including tracked and non-tracked files. The repository only tracks changes to files which are being tracked.
   The benefit is flexibility to work on any file in any state, and when logically complete, to stage collections of related files to be included and therefore tracked in the repository.
-  
+
+How can you use the staging area to make sure you have one commit per logical change?
+  By checking the difference against the last commit (git diff --staged) to review the code, or by reviewing all files that have been added to the staging area as a high level checkpoint
