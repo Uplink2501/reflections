@@ -1,10 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
-
-    Fill in your answer here
+  Remotes allow multiple contributors from multiple sources to work on the same shared reference material.
+  Even a single contributor benefits by interacting with a master copy from any computer having a browser or having Git installed.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
-
-    Fill in your answer here
+  A remote may allow updates from other contributors, so a manual pull is preferred in order to maintain reliable and consistent local version.
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
