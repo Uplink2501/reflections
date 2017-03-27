@@ -11,8 +11,7 @@ Describe the differences between forks, clones, and branches.  When would you us
   A branch is tracked directory for parallel code to reside (as working copy, or as easy referenced version).
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
-
-    Fill in your answer here
+  It allows the possibility to work offline.
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
