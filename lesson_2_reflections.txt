@@ -7,4 +7,10 @@ How is the staging area different from the working directory and the repository?
   The benefit is flexibility to work on any file in any state, and when logically complete, to stage collections of related files to be included and therefore tracked in the repository.
 
 How can you use the staging area to make sure you have one commit per logical change?
-  By checking the difference against the last commit (git diff --staged) to review the code, or by reviewing all files that have been added to the staging area as a high level checkpoint
+  By checking the difference against the last commit (git diff --staged) to review the code, or by reviewing all files that have been added to the staging area as a high level
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  Branches would be helpful when you need a stable release version to persist for a period of time or for a specific set of users.
+  Meanwhile, bug fixes, new features or works in progress can exist in parallel for other uses to interact.
+  Having a branch for various systems (acceptance testing, training, developing) would benefit from own branches.
+  Variations in product code for different market segments would benefit by having their own branch (multiple production variants).
