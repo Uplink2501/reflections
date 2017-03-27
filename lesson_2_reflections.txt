@@ -16,4 +16,11 @@ What are some situations when branches would be helpful in keeping your history 
   Variations in product code for different market segments would benefit by having their own branch (multiple production variants).
 
 How do the diagrams help you visualize the branch structure?
-  By illustrating the parent child relationship of commits in branch. 
+  By illustrating the parent child relationship of commits in branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+  The result is a single commit containing code from merged branches. To illustrate that the code has returned to the master (main line) branch tip.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  Pro - Git's automatic merging simplifies cases which have no conflicts, and leaves any ambiguous code merge to the human.
+  Con - The conflict state must be resolved before the commit will succeed, and add extra lines to code that must be managed.
