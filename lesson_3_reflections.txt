@@ -19,5 +19,6 @@ How would you collaborate without using Git or GitHub?  What would be easier, an
   It seems that even simple changes benefit from a track record and consistent workflow.
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-  I would make changes in a separate branch for any feature or bug fix that will be collaborated upon.
+  I would make changes in a separate branch for any feature or bug fix that will be contributed to a public project.
+  Making changes to separate branch allows the master branch to receive community updates (which can be merged into the separate branch)
   The benefit of making changes directly to master is the reduced number of workflow steps.
